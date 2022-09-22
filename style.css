@@ -1,3 +1,11 @@
+nav {
+  font-family: 'Anonymous Pro', Monospace;
+  font-size: 25px;
+  text-align: left;}
+
+a {
+  color: #6F975D;}
+
 
   body {
         font-family: 'Anonymous Pro', Monospace;
@@ -5,39 +13,32 @@
         text-align: center
  }
 
+ ul{
+   text-align: left
+ }
+
+ img {
+   padding: 20px;
+ }
 
       h1 {
-      font-family: 'Futura', sans-serif;
+      font-family: 'Futura', 'Avenir' ;  <!-- does this ensure that just in case there's a backup?-->
       font-size: 50px;
       color: #345231;
+      font-weight: bold;
       text-align: center;
      }
 
-      h3 {
-        font-family: 'Anonymous Pro', Monospace;
-        color: #413738;
-        text-align: center
-
+      body { background-color: #F7F2E4
       }
+
       footer {background-color: #345231;}
         h5 {
           font-family: 'Anonymous Pro', Monospace;
           color: #6F975D ;
           text-align: center;
+          line-height: normal;
          }
 
-      body { background-color: #F7F2E4
-      }
 
-
-    nav {
-      background-color: #E4CF96;
-      font-family: 'Anonymous Pro', Monospace;
-      font-size: 25px;
-      text-align: left;}
-
-
-
-
-    a {
-      color: #6F975D;}
+    
