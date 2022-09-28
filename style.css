@@ -1,44 +1,98 @@
 nav {
+  padding-top: 20px;
   font-family: 'Anonymous Pro', Monospace;
-  font-size: 25px;
-  text-align: left;}
+  font-size: 20px;
+  text-align: left;
+  float: left;
+}
+
+.subnavbtn {
+  font-size: 20px;
+  color: #6F975D;
+  background-color: inherit;
+  font-family: 'Anonymous Pro', Monospace;
+  border-color: #413738
+}
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 150px;
+  padding: 10px;
+  background-color: #345231;
+  z-index: 1;
+}
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #E4CF96;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+.logo {
+  float:left;
+  padding-right: 30px;
+}
+
 
 a {
-  color: #6F975D;}
+  color: #6F975D;
+}
 
 
   body {
         font-family: 'Anonymous Pro', Monospace;
         color: #413738;
-        text-align: center
+        text-align: center;
+
  }
 
  ul{
-   text-align: left
+   text-align: left;
+   padding-left: 150px;
  }
+.about-text {
+  text-align: left;
+  padding-left: 150px;
+}
 
  img {
-   padding: 20px;
+   padding: 10px;
+
  }
 
       h1 {
-      font-family: 'Futura', 'Avenir' ;  <!-- does this ensure that just in case there's a backup?-->
+      font-family: Futura, Avenir, sans-serif ;  /* does this ensure that just in case there's a backup */
       font-size: 50px;
       color: #345231;
       font-weight: bold;
-      text-align: center;
+      text-align:center;
+      float:none;
+      clear: both;
      }
 
-      body { background-color: #F7F2E4
+      body { background-color: #F7F2E4;
       }
+
+
+  .row{
+    display: flex
+  }
+
+  .column{
+  flex: 50%
+}
+
+
+.code-embeds {
+  padding-right: 50px;
+}
 
       footer {background-color: #345231;}
         h5 {
           font-family: 'Anonymous Pro', Monospace;
-          color: #6F975D ;
+          color: #6F975D;
           text-align: center;
           line-height: normal;
+          padding-top: 10px;
          }
-
-
-    
