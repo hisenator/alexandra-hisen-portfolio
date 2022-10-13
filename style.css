@@ -34,6 +34,10 @@ nav {
   padding-right: 30px;
 }
 
+.logo:hover {
+  background-color: #345231;
+}
+
 
 a {
   color: #6F975D;
@@ -59,7 +63,18 @@ a {
  img {
    padding: 10px;
 
+
  }
+
+ .g1:hover {
+   transform: scale(2);
+   background-color: #413738;
+   background-size: cover;
+
+ }
+
+
+
 
       h1 {
       font-family: Futura, Avenir, sans-serif ;  /* does this ensure that just in case there's a backup */
